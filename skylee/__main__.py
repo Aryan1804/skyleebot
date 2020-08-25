@@ -45,9 +45,9 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"
+            text="Add to Group 👥", url="t.me/JokerMan_bot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleebot"),
+        InlineKeyboardButton(text="Updates 📢", url="https://t.me/JokerUpdates"),
     ]
 ]
 
@@ -165,7 +165,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/4edfb3738a35bdfa1922f.jpg",
+                "https://telegra.ph/Kim-Che-08-25",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
@@ -174,7 +174,7 @@ def start(update, context):
             )
     else:
         update.effective_message.reply_text(
-            "Sending you a warm hi & wishing your day is a happy one!"
+            "Heya :) PM me if you have any questions on how to use me!"
         )
 
 
